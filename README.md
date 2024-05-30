@@ -35,6 +35,7 @@ function autoChoose() {
 }
 autoInput();
 autoChoose();
+window.scrollTo(0, document.body.scrollHeight);
 ```
 #### Bước 3:
 Tại trang đánh giá nhấn phím F12 (hoặc chuột phải chọn `Inspect`) sẽ thấy xuất hiện DevTools, sau đó chọn qua tab Console:
